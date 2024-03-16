@@ -28,3 +28,9 @@ public static void main(String[] args) {}
 
 ```
 
+```java
+System.out.println("Hello world!");
+//this will print out to the console
+// the semicolon is required
+```
+
