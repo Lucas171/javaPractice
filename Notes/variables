@@ -2,9 +2,17 @@
 
 ```java
 class Main{
+  static int age = 30;
   public static void main(String[] args){
-    
+    // this is how you declare a variable (type name;)
+    int age;
+    age = 27; //this will change the value
+
+    // or
+
+    int age1 = 27;
 
   }
 }
+
 ```
