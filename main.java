@@ -1,11 +1,11 @@
 class Main{
-//global variables
-  static int age = 28;
+  static public void main(String[] args){
+    String name = "Lucas";
+    int age = 26;
+    String job = "Military";
 
-  public static void main(String[] args){
-    // prints out to the console
-    System.out.println("Hello World");
-    System.out.println(age);
+    String message = String.format("Hello, My name is %s. I am %d years old. I work for the %s", name, age, job);
 
+    System.out.println(message);
   }
 }
